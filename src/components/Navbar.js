@@ -12,7 +12,11 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiFillSafetyCertificate,
 } from "react-icons/ai";
+import{
+  GrCertificate,
+} from "react-icons/gr";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -108,6 +112,16 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/certificates"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillSafetyCertificate style={{ marginBottom: "2px" }} /> Certificates
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
@@ -119,7 +133,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://leetcode.com/tushar_0602/"
+                href="https://leetcode.com/tm67/"
                 target="_blank"
                 className="fork-btn-inner"
               >

@@ -29,8 +29,8 @@ const Platforms = () => {
               imgPath={leetcode}
               isBlog={false}
               title="Leetcode"
-              description="Solving over 700+ problems on LeetCode has not only been a significant accomplishment for me, but it has also instilled in me a deep sense of confidence in my coding abilities. I am continuously striving to improve my skills and take on more challenging coding problems to further enhance my expertise in DSA."
-              ghLink="https://leetcode.com/tushar_0602/"
+              description="Solving over 800+ problems on LeetCode has not only been a significant accomplishment for me, but it has also instilled in me a deep sense of confidence in my coding abilities. I am continuously striving to improve my skills and take on more challenging coding problems to further enhance my expertise in DSA."
+              ghLink="https://leetcode.com/tm67/"
             //   demoLink="https://discord-clone-ten-rust.vercel.app/"
             />
           </Col>
